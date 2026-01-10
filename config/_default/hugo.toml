@@ -1,0 +1,17 @@
+baseURL = "https://csca48.alyoshin.dev/"
+languageCode = "en"
+title = "CSCA48"
+theme = "blowfish"
+
+[module]
+  [[module.mounts]]
+    source = "static"
+    target = "static"
+  [[module.mounts]]
+    source = "assets"
+    target = "assets"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

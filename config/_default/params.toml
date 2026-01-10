@@ -1,0 +1,13 @@
+colorScheme = "github"
+
+[homepage]
+layout = "background"
+showRecent = true
+recentLimit = 999
+cardView = true
+
+[article]
+showDate = false
+showTaxonomies = true
+showReadingTime = false
+showWordCount = false

@@ -1,0 +1,46 @@
+/* Override all parent constraints for embedded content */
+.min-w-0.min-h-0.max-w-fit:has(.article-content .full-width-embed) {
+  max-width: none !important;
+}
+
+.article-content:has(.full-width-embed) {
+  max-width: none !important;
+}
+
+.full-width-embed {
+  /* Base: mobile with minimal padding */
+  width: clamp(calc(100% - 3rem), calc(100vw - 3rem), 100%) !important;
+  max-width: 100% !important;
+  margin: 2rem auto !important;
+  display: block !important;
+}
+
+/* Small screens - match sm:px-14 (3.5rem each side = 7rem total) */
+@media (min-width: 640px) {
+  .full-width-embed {
+    width: clamp(calc(100% - 3rem), calc(100vw - 7rem), 100%) !important;
+  }
+}
+
+/* Medium screens - match md:px-24 (6rem each side = 12rem total) */
+@media (min-width: 768px) {
+  .full-width-embed {
+    width: clamp(calc(100% - 3rem), calc(100vw - 12rem), 100%) !important;
+  }
+}
+
+/* Large screens - match lg:px-32 (8rem each side = 16rem total) and max body width */
+@media (min-width: 1024px) {
+  .full-width-embed {
+    width: clamp(calc(100% - 3rem), calc(100vw - 16rem), calc(80rem - 16rem)) !important;
+    max-width: calc(80rem - 16rem) !important;
+  }
+}
+
+.full-width-embed iframe {
+  width: 100%;
+  height: 80vh;
+  border: none;
+  display: block;
+  margin: 0 auto;
+}
