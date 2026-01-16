@@ -1,6 +1,6 @@
 ---
 title: "CSCA48"
-description: "Course website"
+description: "Supplementary course website for CSCA48 intended for students in TUT002."
 ---
 
 Welcome to the **CSCA48 TUT002** site!
