@@ -1,13 +1,20 @@
 colorScheme = "github"
+defaultAppearance = "dark"
+autoSwitchAppearance = false
+defaultBackgroundImage = "/img/waves.svg"
 
 [homepage]
 layout = "background"
 showRecent = true
 recentLimit = 999
 cardView = true
+layoutBackgroundBlur = false
 
 [article]
 showDate = false
 showTaxonomies = true
 showReadingTime = false
 showWordCount = false
+
+[footer]
+showThemeAttribution = false

@@ -1,9 +1,9 @@
-title = "CSCA48 | TUT002 | Friday 11:00AM - 12:00PM"
+title = "CSCA48 | TUT002"
 
 [params.author]
 name = "Daniel Alyoshin"
 image = "img/clang.png"
-headline = "CSCA48 | TUT002"
+headline = "Friday 11:00AM - 12:00PM"
 links = [
   { canvas = "https://q.utoronto.ca/courses/417599" },
   { piazza = "https://piazza.com/class/mjx173ct8am1ue#" }

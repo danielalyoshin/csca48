@@ -1,7 +1,7 @@
 ---
 title: "Week 2 - Basics of C"
 author: "Daniel Alyoshin"
-date: 2026-01-08
+date: 2026-01-17
 draft: false
 tags: ["CSCA48"]
 categories: ["slides"]
