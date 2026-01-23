@@ -44,3 +44,18 @@
   display: block;
   margin: 0 auto;
 }
+
+.slides-fallback {
+  display: none;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .full-width-embed iframe {
+    display: none;
+  }
+
+  .slides-fallback {
+    display: block;
+  }
+}
