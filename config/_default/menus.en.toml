@@ -1,0 +1,9 @@
+[[main]]
+  name = "Slides"
+  pageRef = "posts"
+  weight = 10
+
+[[main]]
+  name = "Links"
+  pageRef = "links"
+  weight = 20
