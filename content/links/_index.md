@@ -9,7 +9,7 @@ showWordCount: false
 
 ## Course Links
 
-- [Canvas](https://q.utoronto.ca/courses/417599)
+- [Quercus](https://q.utoronto.ca/courses/417599)
 - [Piazza](https://piazza.com/class/mjx173ct8am1ue#)
 
 ## Starter Code
