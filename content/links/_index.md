@@ -15,3 +15,4 @@ showWordCount: false
 ## Starter Code
 
 - [Week 6 & 7 Tutorial Starter Code](https://www.cs.utoronto.ca/~strider/var/prime_digits.c)
+- [Week 9 Tutorial Starter Code](/starter/Week9Starter.c)
